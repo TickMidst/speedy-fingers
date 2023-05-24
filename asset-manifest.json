@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/speedy-fingers/static/css/main.e40d5864.css",
+    "main.js": "/speedy-fingers/static/js/main.005a2842.js",
+    "static/js/787.92488e20.chunk.js": "/speedy-fingers/static/js/787.92488e20.chunk.js",
+    "static/media/keyboard_icon.svg": "/speedy-fingers/static/media/keyboard_icon.dfea16562502bd769080ed3afcbe6bae.svg",
+    "static/media/speed_icon.svg": "/speedy-fingers/static/media/speed_icon.2542499bad02de142d0d5b7e1a8d9603.svg",
+    "index.html": "/speedy-fingers/index.html",
+    "static/media/accuracy_icon.svg": "/speedy-fingers/static/media/accuracy_icon.533f801e6b1ccf40e922a7ea663b2bb8.svg",
+    "static/media/reset_icon.svg": "/speedy-fingers/static/media/reset_icon.514c0f3e785035e027d14ff534a1209b.svg",
+    "main.e40d5864.css.map": "/speedy-fingers/static/css/main.e40d5864.css.map",
+    "main.005a2842.js.map": "/speedy-fingers/static/js/main.005a2842.js.map",
+    "787.92488e20.chunk.js.map": "/speedy-fingers/static/js/787.92488e20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e40d5864.css",
+    "static/js/main.005a2842.js"
+  ]
+}
