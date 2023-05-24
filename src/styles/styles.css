@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* Header start*/
+.header__wrapper {
+  background-color: #05386B;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.header__wrapper-title {
+  margin-left: 40px;
+  color: #EDF5E1;
+  font-family: 'Permanent Marker', cursive, Arial, sans-serif;
+}
+
+/* Header end */
+
+
+/* MainContainer start */
+.mainContainer__wrapper {
+  width: 1000px;
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 77% 23%;
+}
+
+/* MainContainer */
+
+
+/* TextArea */
+.textArea__wrapper {
+  position: relative;
+  background-color: #EDF5E1;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.textArea__text {
+  padding: 40px;
+  font-size: x-large;
+  white-space: pre-wrap;
+}
+
+
+
+.textArea__text-symbol--general {
+  display: inline;
+}
+
+.textArea__text-symbol--success {
+  color: #EDF5E1;
+  background-color: #5cdb95;
+}
+
+.textArea__text-symbol--success:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.textArea__text-symbol--fail {
+  color: #EDF5E1;
+  ;
+  background-color: rgba(5, 56, 107, 0.9);
+}
+
+.textArea__text-symbol--fail:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.textArea__input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/* TextArea end */
+
+
+/* InfoArea start */
+.infoArea__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8EE4AF;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.infoArea__element {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoArea__element-title {
+  display: inline;
+  color: #05386B;
+  text-transform: uppercase;
+}
+
+.infoArea__element-title_line {
+  display: flex;
+  align-items: baseline;
+}
+
+.infoArea__element-subtitle {
+  color: #EDF5E1;
+}
+
+.infoArea__element-subtitle--accent {
+  font-size: xx-large;
+}
+
+.element-icon {
+  padding-right: 5px;
+  width: 28px;
+}
+
+.element-icon--hidden {
+  display: none;
+}
+
+/* InfoArea end */
+
+
+/* Modal start */
+.modal__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: #EDF5E1;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.modal__wrapper--hide {
+  display: none;
+}
+
+.modal__wrapper-text {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  display: inline-block;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  color: #05386b;
+}
+
+.modal__wrapper-btn {
+  background-color: #05386b;
+  text-transform: uppercase;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #edf5e1;
+  font-size: 22px;
+  padding: 21px 38px;
+  transition: .1s;
+}
+
+.modal__wrapper--finish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.modal__wrapper--hide {
+  display: none;
+}
+
+/* Modal end */
+
+/* switchLang start */
+.switchLangElement_wrapper--header {
+  margin-right: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: .1s;
+}
+
+.switchLangElement_text--header {
+  text-transform: uppercase;
+  color: #EDF5E1;
+}
+
+.switchLangElement_wrapper--modal {
+  text-transform: uppercase;
+  color: #05386B;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  padding: 10px;
+  transition: .1s;
+}
+
+/* switchLang end */
+
+/* reset start */
+.resetBtn__wrapper {
+  color: #05386B;
+  padding: 10px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: .1s;
+}
+
+.resetBtn__text {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.resetBtn__icon {
+  padding-right: 5px;
+}
+
+/* reset end */
+
+/* Common styles start */
+.switchLangElement_wrapper--modal:hover,
+.modal__wrapper-btn:hover,
+.switchLangElement_wrapper--header:hover,
+.resetBtn__wrapper:hover {
+  opacity: .8;
+}
+
+/* Common styles end */
